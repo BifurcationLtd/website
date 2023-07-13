@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "Bifurcation Ltd."
+  favicon: images/logo.png
+  navbar:
+    logo: images/logo.png
+    href: index.qmd
+    collapse-below: lg
+    pinned: true
+    right:
+      - href: index.qmd
+        text: "Home"
+        icon: house-fill
+      - href: about.qmd
+        text: "About"
+  page-footer: 
+    left:
+      - text: "{{< fa regular copyright >}} 2023 Bifurcation Ltd."
+        href: https://creativecommons.org/licenses/by/2.0/
+    center: 
+      - text: "Built with Quarto"
+        href: https://quarto.org
+    right:
+      - text: "{{< fa solid square-envelope size=lg >}}"
+        href: mailto:svethitov@protonmail.com
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+
+
