@@ -16,3 +16,6 @@ public/dist
 .luarc.json
 .ipynb_checkpoints
 .quarto
+/.luarc.json
+
+/.quarto/

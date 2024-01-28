@@ -24,7 +24,7 @@ website:
         href: https://quarto.org
     right:
       - text: "{{< fa solid square-envelope size=lg >}}"
-        href: mailto:svethitov@protonmail.com
+        href: mailto:office@bifurcation.bg
 
 format:
   html:
